@@ -1,7 +1,0 @@
-﻿  OpenGL_Template.cpp
-OpenGL_Template.obj : error LNK2019: unresolved external symbol glfwInit referenced in function main
-OpenGL_Template.obj : error LNK2019: unresolved external symbol glfwTerminate referenced in function main
-OpenGL_Template.obj : error LNK2019: unresolved external symbol glfwWindowHint referenced in function main
-OpenGL_Template.obj : error LNK2019: unresolved external symbol glfwCreateWindow referenced in function main
-C:\Users\Donc3 Kebabas\Documents\GitHub\OpenGL_Template\\Dependancies\GLFW\lib-vc2019\glfw3.lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
-C:\Users\Donc3 Kebabas\Documents\GitHub\OpenGL_Template\x64\Debug\OpenGL_Template.exe : fatal error LNK1120: 4 unresolved externals
