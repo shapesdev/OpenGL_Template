@@ -1,0 +1,44 @@
+﻿  Shader.cpp
+  OpenGL_Template.cpp
+  Generating Code...
+Shader.obj : error LNK2001: unresolved external symbol __glewAttachShader
+Shader.obj : error LNK2001: unresolved external symbol __glewCompileShader
+Shader.obj : error LNK2001: unresolved external symbol __glewCreateProgram
+Shader.obj : error LNK2001: unresolved external symbol __glewCreateShader
+Shader.obj : error LNK2001: unresolved external symbol __glewDeleteProgram
+Shader.obj : error LNK2001: unresolved external symbol __glewDeleteShader
+Shader.obj : error LNK2001: unresolved external symbol __glewGetProgramInfoLog
+Shader.obj : error LNK2001: unresolved external symbol __glewGetProgramiv
+Shader.obj : error LNK2001: unresolved external symbol __glewGetShaderInfoLog
+Shader.obj : error LNK2001: unresolved external symbol __glewGetShaderiv
+Shader.obj : error LNK2001: unresolved external symbol __glewGetUniformLocation
+Shader.obj : error LNK2001: unresolved external symbol __glewLinkProgram
+Shader.obj : error LNK2001: unresolved external symbol __glewShaderSource
+Shader.obj : error LNK2001: unresolved external symbol __glewUniform1f
+Shader.obj : error LNK2001: unresolved external symbol __glewUniform1i
+Shader.obj : error LNK2001: unresolved external symbol __glewUseProgram
+OpenGL_Template.obj : error LNK2019: unresolved external symbol glewInit referenced in function main
+OpenGL_Template.obj : error LNK2019: unresolved external symbol glfwInit referenced in function main
+OpenGL_Template.obj : error LNK2019: unresolved external symbol glfwTerminate referenced in function main
+OpenGL_Template.obj : error LNK2019: unresolved external symbol glfwWindowHint referenced in function main
+OpenGL_Template.obj : error LNK2019: unresolved external symbol glfwCreateWindow referenced in function main
+OpenGL_Template.obj : error LNK2019: unresolved external symbol glfwWindowShouldClose referenced in function main
+OpenGL_Template.obj : error LNK2019: unresolved external symbol glfwSetWindowShouldClose referenced in function "void __cdecl ProcessInput(struct GLFWwindow *)" (?ProcessInput@@YAXPEAUGLFWwindow@@@Z)
+OpenGL_Template.obj : error LNK2019: unresolved external symbol glfwSetFramebufferSizeCallback referenced in function main
+OpenGL_Template.obj : error LNK2019: unresolved external symbol glfwPollEvents referenced in function main
+OpenGL_Template.obj : error LNK2019: unresolved external symbol glfwGetKey referenced in function "void __cdecl ProcessInput(struct GLFWwindow *)" (?ProcessInput@@YAXPEAUGLFWwindow@@@Z)
+OpenGL_Template.obj : error LNK2019: unresolved external symbol glfwMakeContextCurrent referenced in function main
+OpenGL_Template.obj : error LNK2019: unresolved external symbol glfwSwapBuffers referenced in function main
+OpenGL_Template.obj : error LNK2001: unresolved external symbol __glewBindBuffer
+OpenGL_Template.obj : error LNK2001: unresolved external symbol __glewBufferData
+OpenGL_Template.obj : error LNK2001: unresolved external symbol __glewDeleteBuffers
+OpenGL_Template.obj : error LNK2001: unresolved external symbol __glewGenBuffers
+OpenGL_Template.obj : error LNK2001: unresolved external symbol __glewEnableVertexAttribArray
+OpenGL_Template.obj : error LNK2001: unresolved external symbol __glewVertexAttribPointer
+OpenGL_Template.obj : error LNK2001: unresolved external symbol __glewGenerateMipmap
+OpenGL_Template.obj : error LNK2001: unresolved external symbol __glewBindVertexArray
+OpenGL_Template.obj : error LNK2001: unresolved external symbol __glewDeleteVertexArrays
+OpenGL_Template.obj : error LNK2001: unresolved external symbol __glewGenVertexArrays
+C:\Users\Donc3 Kebabas\Documents\GitHub\OpenGL_Template\\Dependancies\GLEW\lib\Release\Win32\glew32s.lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
+C:\Users\Donc3 Kebabas\Documents\GitHub\OpenGL_Template\\Dependancies\GLFW\lib-vc2019\glfw3.lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
+C:\Users\Donc3 Kebabas\Documents\GitHub\OpenGL_Template\x64\Debug\OpenGL_Template.exe : fatal error LNK1120: 38 unresolved externals

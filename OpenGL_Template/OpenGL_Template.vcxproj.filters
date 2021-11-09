@@ -30,4 +30,12 @@
   <ItemGroup>
     <None Include="src\Base.shader" />
   </ItemGroup>
+  <ItemGroup>
+    <Image Include="src\textures\container.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="src\textures\ricardo.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
 </Project>

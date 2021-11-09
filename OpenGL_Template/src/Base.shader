@@ -3,16 +3,18 @@
 
 layout (location = 0) in vec3 aPos;
 layout (location = 1) in vec3 aColor;
-out vec3 ourColor;
-out vec3 ourPosition;
+layout (location = 2) in vec2 aTexCoord;
 
-uniform float offset;
+out vec3 ourColor;
+out vec2 TexCoord;
+
+uniform mat4 transform;
 
 void main()
 {
-	gl_Position = vec4(aPos.x + offset, aPos.y, aPos.z, 1.0f);
+	gl_Position = transform * vec4(aPos, 1.0f);
 	ourColor = aColor;
-	ourPosition = aPos;
+	TexCoord = vec2(aTexCoord.x, aTexCoord.y);
 }
 
 #shader fragment
@@ -20,9 +22,13 @@ void main()
 out vec4 FragColor;
 
 in vec3 ourColor;
-in vec3 ourPosition;
+in vec2 TexCoord;
+
+uniform sampler2D texture1;
+uniform sampler2D texture2;
+uniform float mixValue;
 
 void main()
 {
-	FragColor = vec4(ourPosition, 1.0f);
+	FragColor = mix(texture(texture1, TexCoord), texture(texture2, TexCoord), mixValue);
 }
