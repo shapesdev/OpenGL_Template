@@ -1,2 +1,19 @@
 ﻿  Camera.cpp
+  Shader.cpp
+  OpenGL_Template.cpp
+C:\Users\Donc3 Kebabas\Documents\GitHub\OpenGL_Template\OpenGL_Template\src\OpenGL_Template.cpp(189,22): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\Donc3 Kebabas\Documents\GitHub\OpenGL_Template\OpenGL_Template\src\OpenGL_Template.cpp(220,27): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\Donc3 Kebabas\Documents\GitHub\OpenGL_Template\OpenGL_Template\src\OpenGL_Template.cpp(244,32): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\Donc3 Kebabas\Documents\GitHub\OpenGL_Template\OpenGL_Template\src\OpenGL_Template.cpp(244,26): warning C4244: 'initializing': conversion from 'double' to 'const float', possible loss of data
+C:\Users\Donc3 Kebabas\Documents\GitHub\OpenGL_Template\OpenGL_Template\src\OpenGL_Template.cpp(287,11): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\Donc3 Kebabas\Documents\GitHub\OpenGL_Template\OpenGL_Template\src\OpenGL_Template.cpp(288,11): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\Donc3 Kebabas\Documents\GitHub\OpenGL_Template\OpenGL_Template\src\OpenGL_Template.cpp(292,16): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\Donc3 Kebabas\Documents\GitHub\OpenGL_Template\OpenGL_Template\src\OpenGL_Template.cpp(293,16): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\Donc3 Kebabas\Documents\GitHub\OpenGL_Template\OpenGL_Template\src\OpenGL_Template.cpp(295,10): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\Donc3 Kebabas\Documents\GitHub\OpenGL_Template\OpenGL_Template\src\OpenGL_Template.cpp(296,10): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\Donc3 Kebabas\Documents\GitHub\OpenGL_Template\OpenGL_Template\src\OpenGL_Template.cpp(302,28): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+  Generating Code...
+LINK : warning LNK4098: defaultlib 'LIBCMT' conflicts with use of other libs; use /NODEFAULTLIB:library
+LINK : warning LNK4098: defaultlib 'MSVCRT' conflicts with use of other libs; use /NODEFAULTLIB:library
+glew32s.lib(glew.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'glew32s.lib(glew.obj)' or at 'C:\Users\Donc3 Kebabas\Documents\GitHub\OpenGL_Template\Debug\vc120.pdb'; linking object as if no debug info
   OpenGL_Template.vcxproj -> C:\Users\Donc3 Kebabas\Documents\GitHub\OpenGL_Template\Debug\OpenGL_Template.exe

@@ -49,7 +49,7 @@ int main()
 
 	// Capture the mouse 
 	glfwSetInputMode(window, GLFW_CURSOR, GLFW_CURSOR_DISABLED);
-
+	// Enable depth
 	glEnable(GL_DEPTH_TEST);
 
 	// GLEW Initalization (only after the context is set)

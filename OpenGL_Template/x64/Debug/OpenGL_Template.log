@@ -1,5 +1,17 @@
-﻿  Shader.cpp
+﻿  Camera.cpp
+  Shader.cpp
   OpenGL_Template.cpp
+C:\Users\Donc3 Kebabas\Documents\GitHub\OpenGL_Template\OpenGL_Template\src\OpenGL_Template.cpp(204,22): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\Donc3 Kebabas\Documents\GitHub\OpenGL_Template\OpenGL_Template\src\OpenGL_Template.cpp(235,27): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\Donc3 Kebabas\Documents\GitHub\OpenGL_Template\OpenGL_Template\src\OpenGL_Template.cpp(259,32): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\Donc3 Kebabas\Documents\GitHub\OpenGL_Template\OpenGL_Template\src\OpenGL_Template.cpp(259,26): warning C4244: 'initializing': conversion from 'double' to 'const float', possible loss of data
+C:\Users\Donc3 Kebabas\Documents\GitHub\OpenGL_Template\OpenGL_Template\src\OpenGL_Template.cpp(302,11): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\Donc3 Kebabas\Documents\GitHub\OpenGL_Template\OpenGL_Template\src\OpenGL_Template.cpp(303,11): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\Donc3 Kebabas\Documents\GitHub\OpenGL_Template\OpenGL_Template\src\OpenGL_Template.cpp(307,16): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\Donc3 Kebabas\Documents\GitHub\OpenGL_Template\OpenGL_Template\src\OpenGL_Template.cpp(308,16): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\Donc3 Kebabas\Documents\GitHub\OpenGL_Template\OpenGL_Template\src\OpenGL_Template.cpp(310,10): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\Donc3 Kebabas\Documents\GitHub\OpenGL_Template\OpenGL_Template\src\OpenGL_Template.cpp(311,10): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\Donc3 Kebabas\Documents\GitHub\OpenGL_Template\OpenGL_Template\src\OpenGL_Template.cpp(317,28): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
   Generating Code...
 Shader.obj : error LNK2001: unresolved external symbol __glewAttachShader
 Shader.obj : error LNK2001: unresolved external symbol __glewCompileShader
@@ -16,6 +28,9 @@ Shader.obj : error LNK2001: unresolved external symbol __glewLinkProgram
 Shader.obj : error LNK2001: unresolved external symbol __glewShaderSource
 Shader.obj : error LNK2001: unresolved external symbol __glewUniform1f
 Shader.obj : error LNK2001: unresolved external symbol __glewUniform1i
+Shader.obj : error LNK2001: unresolved external symbol __glewUniformMatrix2fv
+Shader.obj : error LNK2001: unresolved external symbol __glewUniformMatrix3fv
+Shader.obj : error LNK2001: unresolved external symbol __glewUniformMatrix4fv
 Shader.obj : error LNK2001: unresolved external symbol __glewUseProgram
 OpenGL_Template.obj : error LNK2019: unresolved external symbol glewInit referenced in function main
 OpenGL_Template.obj : error LNK2019: unresolved external symbol glfwInit referenced in function main
@@ -26,9 +41,14 @@ OpenGL_Template.obj : error LNK2019: unresolved external symbol glfwWindowShould
 OpenGL_Template.obj : error LNK2019: unresolved external symbol glfwSetWindowShouldClose referenced in function "void __cdecl ProcessInput(struct GLFWwindow *)" (?ProcessInput@@YAXPEAUGLFWwindow@@@Z)
 OpenGL_Template.obj : error LNK2019: unresolved external symbol glfwSetFramebufferSizeCallback referenced in function main
 OpenGL_Template.obj : error LNK2019: unresolved external symbol glfwPollEvents referenced in function main
+OpenGL_Template.obj : error LNK2019: unresolved external symbol glfwSetInputMode referenced in function main
 OpenGL_Template.obj : error LNK2019: unresolved external symbol glfwGetKey referenced in function "void __cdecl ProcessInput(struct GLFWwindow *)" (?ProcessInput@@YAXPEAUGLFWwindow@@@Z)
+OpenGL_Template.obj : error LNK2019: unresolved external symbol glfwSetCursorPosCallback referenced in function main
+OpenGL_Template.obj : error LNK2019: unresolved external symbol glfwSetScrollCallback referenced in function main
+OpenGL_Template.obj : error LNK2019: unresolved external symbol glfwGetTime referenced in function main
 OpenGL_Template.obj : error LNK2019: unresolved external symbol glfwMakeContextCurrent referenced in function main
 OpenGL_Template.obj : error LNK2019: unresolved external symbol glfwSwapBuffers referenced in function main
+OpenGL_Template.obj : error LNK2001: unresolved external symbol __glewActiveTexture
 OpenGL_Template.obj : error LNK2001: unresolved external symbol __glewBindBuffer
 OpenGL_Template.obj : error LNK2001: unresolved external symbol __glewBufferData
 OpenGL_Template.obj : error LNK2001: unresolved external symbol __glewDeleteBuffers
@@ -41,4 +61,4 @@ OpenGL_Template.obj : error LNK2001: unresolved external symbol __glewDeleteVert
 OpenGL_Template.obj : error LNK2001: unresolved external symbol __glewGenVertexArrays
 C:\Users\Donc3 Kebabas\Documents\GitHub\OpenGL_Template\\Dependancies\GLEW\lib\Release\Win32\glew32s.lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
 C:\Users\Donc3 Kebabas\Documents\GitHub\OpenGL_Template\\Dependancies\GLFW\lib-vc2019\glfw3.lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
-C:\Users\Donc3 Kebabas\Documents\GitHub\OpenGL_Template\x64\Debug\OpenGL_Template.exe : fatal error LNK1120: 38 unresolved externals
+C:\Users\Donc3 Kebabas\Documents\GitHub\OpenGL_Template\x64\Debug\OpenGL_Template.exe : fatal error LNK1120: 46 unresolved externals
